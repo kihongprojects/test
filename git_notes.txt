@@ -1,0 +1,64 @@
+
+* HAVE TO BE IN THE CURRENT DIRECTORY IN ORDER FOR GIT TO WORK.
+
+git - version control/tracking code changes over time
+
+initial code ----------------------- >> latest code version
+
+1. VERSION CONTROL
+
+2. GIT - REPOSITORIES, BRANCHES, COMMITS
+
+3. GITHUB - REMOTE REPOSITORIES, CLONE, PULL REQUESTS
+
+GIT
+1. Working Directory (Current project folder)
+
+2. Repository (All tracked files and folders, code snapshots, track changes)
+Commit - code snapshot, every time you add a feature, need to commit
+Branch - where commits are stored, stored in the main/master branch
+
+
+clear - clear out screen
+git --version - for which version
+git init - initialize a repository
+git status - tells us the status
+git add xxxxx - adds to the repository
+git add . - adds multiple files either new changes and/or new files
+    then, git commit -m "ex: changed test.txt and added second_commit.txt"
+git commit -m "add a note here in between the quotes"
+    ~:x  - to escape out of weird looking screens
+
+
+
+git config --global --edit
+    ~:x - to escape out of screen
+
+git config --global user.name - to see the current user name
+git config --global user.name "type in new name"
+
+git config --global user.email - to see the current user email address
+git config --global user.email "type in new email address"
+
+git status (to see the status if we added a commit)
+git log - shows all commits inside master branch
+
+cls - clear
+
+
+
+---------------------------------- BRANCHES ----------------------------------------
+default branch is called the MASTER branch (however recently we use MAIN instead of MASTER)
+    git status
+        >>On branch master<< tells us I am on the master branch
+
+git branch - shows all the branches
+git branch -m xxxxxx (rename a branch)
+git checkout -b xxxxxxx - to create/switch a new branch
+
+MERGING BRANCHES
+1. must get back to the main branch first
+    git checkout main
+2. the merge the other branch to the main branch
+    git merge xxxxxx    
+
