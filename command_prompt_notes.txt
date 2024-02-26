@@ -1,0 +1,23 @@
+relative path - starts at my current location
+absolute path - always starts at the root directory C:
+    ex. C:\Users\Intel\Desktop\etc.
+
+(tab) for auto completion
+dir - directory
+cd - change directory
+cd .. - move one directory up
+cd xxx - to go into that directory
+D: - will got into a different drive outside of C drive
+cd Desktop\xxxx - to get into a folder and another folder in one path
+cd / - get to root directory (C:)
+cls - clear the prompt screen
+
+mkdir xxx - create a new folder
+echo {content of the file} > {file name and file type}- to create a new file
+    ex. echo "content of the file" > test.txt
+type - to see the file 
+    ex. type test.txt
+rmdir - to remove folder
+    ex. rmdir xxx
+del - to delete file
+    ex. del test.txt
