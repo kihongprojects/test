@@ -54,11 +54,36 @@ default branch is called the MASTER branch (however recently we use MAIN instead
 
 git branch - shows all the branches
 git branch -m xxxxxx (rename a branch)
+
+ADDING A BRANCH
 git checkout -b xxxxxxx - to create/switch a new branch
 
 MERGING BRANCHES
 1. must get back to the main branch first
     git checkout main
 2. the merge the other branch to the main branch
-    git merge xxxxxx    
+    git merge name of the branch I want to merge with the main branch    
+
+
+DELETING BRANCHES
+1. must be in the current directory first
+2. git rm filename
+3. if I delete a file in the folder by right-clicking delete, I still have to:
+    git add .
+    git commit -m "some notes"
+
+If I accidentally delete the commit and want to get it back
+git reset --hard HEAD~1 (~1 is the one commit previously)
+
+to delete a branch entirely
+git branch -D branch name I want to delete
+
+how to get rid of staged and unstaged changes
+unstaged
+    git checkout -- . (to get rid of any text or warnings)
+
+staged
+    1. git reset file name
+    2. git checkout -- . (to undo staging)
+
 

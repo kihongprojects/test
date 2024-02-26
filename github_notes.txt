@@ -1,0 +1,12 @@
+how to start
+1. click "cat logo" top left
+2. new or create repository
+3. repository name
+4. description
+5. public or private
+6. create repository
+7. click on right side icon to copy - Quick setup ...
+8. doing a push
+9. need to get to main branch in git
+10. git checkout main
+11. 
