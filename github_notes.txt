@@ -1,3 +1,9 @@
+password: Chloephoebe21!
+
+my token: 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
+
+
+
 how to start
 1. click "cat logo" top left
 2. new or create repository
@@ -9,4 +15,43 @@ how to start
 8. doing a push
 9. need to get to main branch in git
 10. git checkout main
-11. 
+11. git remote add origin https://github.com/kihongprojects/test.git
+                          (this is what i pasted from right icon in "Quick setup ... ")
+12. need to create a personal access token (like a security feature)
+13. click github logo (looks like a capital H) top right hand corner
+14. settings
+15. scroll down to Developer settings and click on the left side of the page
+16. click Personal access tokens
+17. click Tokens (classic)
+18. click Generate new token
+19. note
+20. expiration
+21. click any checkbox to give access rights to me
+22. check off
+    a. repo 
+    b. write:packages 
+    c. delete:packages
+    d. user 
+23. click Generate token   
+24. git push origin main
+25. log in with token up top
+26. extra code unsure -  for windows Users
+    git credential reject --- enter
+    host=github.com --- enter
+    protocol=https --- enter
+27. go to github, click cat logo and the repository is listed.
+28. click the new repository
+
+
+
+
+
+
+
+
+
+
+
+
+12. git push origin main
+13. 

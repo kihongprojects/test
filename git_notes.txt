@@ -86,4 +86,12 @@ staged
     1. git reset file name
     2. git checkout -- . (to undo staging)
 
+    -------------------------------------------------------------------
+
+    connecting git and GITHUB
+    git remote add origin https://github.com/kihongprojects/test.git
+                          (this is what i pasted from right icon in "Quick setup ... ")
+
+    git push origin main 
+
 
