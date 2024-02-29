@@ -35,23 +35,54 @@ how to start
 23. click Generate token   
 24. git push origin main
 25. log in with token up top
-26. extra code unsure -  for windows Users
-    git credential reject --- enter
-    host=github.com --- enter
-    protocol=https --- enter
-27. go to github, click cat logo and the repository is listed.
-28. click the new repository
+26. go to github, click cat logo and the repository is listed.
+27. click the new repository
 
+every time I want to add, change, etc I have to do the following:
+git push origin main
 
+---------------------------------------------
+IF I WANT TO WORK ON A DIFFERENT COMPUTER
+---------------------------------------------
+1. need to clear any existing token information
 
+for windows users
+git credential reject - enter
+host=github.com - enter
+protocol=https - enter
+enter
 
+for mac users
+git credential-osxkeychain erase - enter
+host-github.com - enter 
+protocol=https - enter
+enter
 
-
-
-
-
-
-
-
-12. git push origin main
-13. 
+2. lets assume this is a new computer and has no such folders or files of the project
+3. create a new project folder on the new computer's Desktop
+4. open a new VS Code instance by dragging project folder into VS Code
+5. open command prompt
+6. git clone https://github.com/the url of whatever repository i'm trying to copy onto my new local computer/ . (https://github.com/xxxx .)
+                                                                                                          (space and a period)
+7. now create, add, make changes.
+8. git add .
+9. git commit -m "some note"
+10. git push origin main 
+11. go back to GITHUB
+12. profile (top right corner)
+13. settings 
+14. developer settings
+15. personal access tokens
+16. click Tokens (classic)
+17. click Generate new token
+18. note
+19. expiration
+20. click any checkbox to give access rights to me
+21. check off
+    a. repo 
+    b. write:packages 
+    c. delete:packages
+    d. user 
+22. click Generate token 
+23. copy new token
+24. I will get the same message about the token id
