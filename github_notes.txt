@@ -86,3 +86,8 @@ enter
 22. click Generate token 
 23. copy new token
 24. I will get the same message about the token id
+
+
+---------------------------------------------
+COLLABORATING ON PROJECTS
+---------------------------------------------
