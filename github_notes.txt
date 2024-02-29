@@ -91,3 +91,27 @@ enter
 ---------------------------------------------
 COLLABORATING ON PROJECTS
 ---------------------------------------------
+1. assuming I'm in control but I want to give access to others to do certain tasks, but I may want to keep things private instead of public
+2. profile, top right corner
+3. click your repositories
+4. Repositories tab 
+5. click New 
+6. give repository name
+7. private
+8. click create repository button
+9. creating a new file in the Quick setup section 
+10. give a name
+11. give a note in the Commit New file
+12. click commit new file button 
+13. now the new person will need a github account
+14. need to set them as a collaborator 
+15. settings in the tab area, not the settings in the profile
+Code   Issues   Pull requests   Actions   Projects   Security   Insights   >>Settings<<
+16. manage access 
+17. Invite a collaborator button 
+18. type in a username, full name or email of the collaborator we want to add
+19. select that account
+20. click add to this repository
+21. the collaborator will receive an invite in their email and can access 
+22. the collaborator accepts the invitation and that collaborator is now added into our account as a collaborator to our project
+23. the collaborator now has a right to add, make changes, etc and push changes into our repository
