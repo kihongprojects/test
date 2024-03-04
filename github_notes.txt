@@ -147,4 +147,39 @@ CONTRIBUTION ON PROJECTS - FORKS AND PULL REQUESTS
 ---------------------------------------------
 1. CONTRIBUTION is something you see in open source Projects
 2. anyone can access the main code and add, change or fix bugs whereas collaborator may just work on a special feature and not the main code. 
-3. 
+3. start from main owner account 
+4. go to landing page by clicking right hand logo > your profile > New 
+5. give a name > public > create repository
+6. creating a new file in the Quick setup 
+7. name the file and Commit changes button.
+8. unlike collaborator who has rights to work on the project, a CONTRIBUTION does not 
+9. as a contributor, go to the github page and top right corner go to FORK 
+10. forking will allow the contributor to essentially do a SAVE AS onto the contributors account and not part of the main owners account 
+11. Where should we fork open-source? pick the contributors account 
+12. now the contributor has rights. click on Code button 
+13. copy the url .
+14. create a new folder on the desktop and create a new VS Code instance 
+15. git clone url [space + period] which we just copied in step 13. 
+16. make changes, add new files, etc.
+17. git add .
+18. git commit -m "notes"
+19. git push origin main
+20. reload github page and it shows the forked page (contributor) of any new updates, changes, etc.
+
+21. how can the contributor notify the owner that we made a change and to implement the new changes?
+22. we notify him thru a Pull Request by telling him to update with the contributors code 
+23. from the contributors github, do a pull request in the tab     Code   Issues    Pull requests
+24. Pull request (tab ribbon) > New pull request button 
+25. base repository: main owners       head repository: contributors 
+26. click Create pull request button 
+27. add a description like "Code updated"and note to describe what we did like "fixed but on line 321, now working fine"
+28. click Create pull request button 
+
+29. now from the main owners page, he will see in the tab ribbons Pull requests 1.
+30. click the Pull request tab and now see the new pull request done by the contributor 
+31. click the pull request link 
+32. check the code and if it's still not up to par, on the bottom we can Close pull request button 
+33. but if the changes made by the contributor is good and they fixed the bug, we can like the Merge pull request button 
+34. click Confirm merge 
+35. both owner and contributors github page will confirm its been merged successfully 
+

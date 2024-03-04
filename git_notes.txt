@@ -98,6 +98,7 @@ staged
 
 ---------------------------------------------------------------------------------------------
 git clone - will make a copy of a REMOTE repository onto a LOCAL repository
+git clone url [space][period]
 
 git push origin main - to add changes from local to remote
 git pull - to retrieve from remote to our local
