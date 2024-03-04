@@ -140,4 +140,11 @@ Code   Issues   Pull requests   Actions   Projects   Security   Insights   >>Set
 33. if the main person adds a new file and pushes, it wont show for the collaborator
 34. so the collaborator needs to update by:
     git pull (brings remote to local)
-35. 
+
+
+---------------------------------------------
+CONTRIBUTION ON PROJECTS - FORKS AND PULL REQUESTS
+---------------------------------------------
+1. CONTRIBUTION is something you see in open source Projects
+2. anyone can access the main code and add, change or fix bugs whereas collaborator may just work on a special feature and not the main code. 
+3. 
