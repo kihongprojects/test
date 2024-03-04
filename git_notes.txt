@@ -89,6 +89,8 @@ staged
     -------------------------------------------------------------------
 
     connecting git and GITHUB
+
+    
     git remote add origin https://github.com/kihongprojects/test.git
                           (this is what i pasted from right icon in "Quick setup ... ")
 
@@ -96,3 +98,6 @@ staged
 
 ---------------------------------------------------------------------------------------------
 git clone - will make a copy of a REMOTE repository onto a LOCAL repository
+
+git push origin main - to add changes from local to remote
+git pull - to retrieve from remote to our local

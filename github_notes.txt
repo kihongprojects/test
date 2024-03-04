@@ -115,3 +115,29 @@ Code   Issues   Pull requests   Actions   Projects   Security   Insights   >>Set
 21. the collaborator will receive an invite in their email and can access 
 22. the collaborator accepts the invitation and that collaborator is now added into our account as a collaborator to our project
 23. the collaborator now has a right to add, make changes, etc and push changes into our repository
+24. collaborator creates a new instance folder in VS code
+25. git clone url of the page he wants to work on.
+26. run to get rid of token:
+    for windows users
+    git credential reject - enter
+    host=github.com - enter
+    protocol=https - enter
+    enter
+
+    for mac users
+    git credential-osxkeychain erase - enter
+    host-github.com - enter 
+    protocol=https - enter
+    enter
+27. typically for a collaborator, he should create a new branch instead of working on the main branch
+        git checkout -b xxxxxxx
+28. assuming they created files, then git add . and git commit -m "some notes"
+29. collaborator will go to profile > settings > developer settings > personal access tokens > generate new token > checkboxes > generate token button
+30. copy token
+31. git push origin main (or newly created branch)
+32. log in with credentials...and new token information
+
+33. if the main person adds a new file and pushes, it wont show for the collaborator
+34. so the collaborator needs to update by:
+    git pull (brings remote to local)
+35. 
